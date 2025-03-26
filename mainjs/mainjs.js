@@ -192,7 +192,7 @@ $('.navi li').mouseenter(function() {
   $('.contlist img').attr('src','./images/'+management[0].imgsrc);
   $('.contlist dl dt').html(management[0].title);
   $('.contlist dd:eq(0)').html(management[0].text);
-  $('.contlist dd:eq(1) a').attr('href','/sub2/sub2_'+management[0].link);
+  // $('.contlist dd:eq(1) a').attr('href',management[0].link);
 
   $('.tab_menu ul li:eq(0)').addClass('active');
   $('.management_content .tab_menu li h4').addClass('active');
